@@ -1,6 +1,6 @@
 # List of frequently used annotations in Spring Boot apps 
 
-[![PRs Welcome][shield-prs]](https://github.com/gindex/spring-boot-annotation-list/pulls)
+[![PRs Welcome][shield-prs]](https://github.com/gindex/spring-boot-annotation-list/blob/master/CONTRIBUTING.md)
 [![license][shield-license]](https://github.com/gindex/spring-boot-annotation-list/blob/master/LICENSE)
 
 
