@@ -1,4 +1,4 @@
-# Cheat Sheet - Common Annotations in Spring Boot Applications 
+# List of frequently used annotations in Spring Boot applications 
 
 [![PRs Welcome][shield-prs]](https://github.com/gindex/spring-boot-annotation-list/pulls)
 [![license][shield-license]](https://github.com/gindex/spring-boot-annotation-list/blob/master/LICENSE)
