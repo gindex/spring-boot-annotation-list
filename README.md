@@ -1,4 +1,4 @@
-# List of frequently used annotations in Spring Boot applications 
+# List of frequently used annotations in Spring Boot apps 
 
 [![PRs Welcome][shield-prs]](https://github.com/gindex/spring-boot-annotation-list/pulls)
 [![license][shield-license]](https://github.com/gindex/spring-boot-annotation-list/blob/master/LICENSE)
