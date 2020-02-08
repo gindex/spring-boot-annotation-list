@@ -30,17 +30,17 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
     - [@Service][service] - Marks annotated class as a bean (as convention usually containing business logic)  
     - [@Repository][repo] - Marks annotated class as a bean (as convention usually providing data access) and adds auto-translation from `SQLException` to `DataAccessExceptions` 
 
-Bean state
+#### Bean state
 - [@PostConstruct][postconstruct] - Annotated method is executed after dependency injection is done to perform initialization 
 - [@PreDestroy][predestroy] - Annotated method is executed before the bean is destroyed, e.g. on the shutdown 
 
-Configuration
+#### Configuration
 - [@Import][import] - Imports one or more Java configuration classes `@Configuration`
 - [@PropertySource][propertysource] - Indicates the location of `applicaiton.properties` file to add key-value pairs to Spring `Environment`
 - [@Value][value] - Annotated fields and parameters values will be injected 
 - [@ComponentScan][componentscan] - Configures component scanning `@Compenent`, `@Service`, etc. 
 
-Bean properties
+#### Bean properties
 - [@Lazy][lazy] - Annotated bean will be lazily initialized on the first usage
 - [@Profile][profile] - Indicates that beans will be only initialized if the defined profiles are active   
 - [@Scope][scope] - Defines bean creation scope, e.g. prototype, singleton, etc.
@@ -56,7 +56,7 @@ Bean properties
         - [@ConditionalOnProperty][conditionalonproperty]
         - [@ConditionalOnMissingProperty][conditionalonmissingproperty]
 
-Bean injection
+#### Bean injection
 - [@Autowired][autowired] - Beans are injected into annotated setters, fields, or constructor params. 
 - [@Qualifier][qualifier] - Specifies the name of a bean as an additional condition to identify a unique candidate for autowiring
 
