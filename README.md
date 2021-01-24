@@ -162,8 +162,8 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 [service]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Service.html
 [repo]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Repository.html
 
-[postconstruct]: https://docs.oracle.com/javaee/7/api/javax/annotation/PostConstruct.html
-[predestroy]: https://docs.oracle.com/javaee/7/api/javax/annotation/PreDestroy.html
+[postconstruct]: https://javaee.github.io/javaee-spec/javadocs/javax/annotation/PostConstruct.html
+[predestroy]: https://javaee.github.io/javaee-spec/javadocs/javax/annotation/PreDestroy.html
 
 [import]:https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Import.html
 [propertysource]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/PropertySource.html
@@ -189,7 +189,7 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 
 [valid]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/Valid.html
 [validated]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/annotation/Validated.html
-[notnull]: https://docs.oracle.com/javaee/7/api/javax/validation/constraints/NotNull.html
+[notnull]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/NotNull.html
 [notempty]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/NotEmpty.html
 [notblank]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/NotBlank.html
 [digits]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/Digits.html
@@ -224,25 +224,25 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 [enabletransactionmanagement]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/EnableTransactionManagement.html
 [transactional]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/Transactional.html
 
-[id]: https://docs.oracle.com/javaee/7/api/javax/persistence/Id.html
-[generatedvalue]: https://docs.oracle.com/javaee/7/api/javax/persistence/GeneratedValue.html
-[entity]: https://docs.oracle.com/javaee/7/api/javax/persistence/Entity.html
-[column]: https://docs.oracle.com/javaee/7/api/javax/persistence/Column.html
-[table]: https://docs.oracle.com/javaee/7/api/javax/persistence/Table.html
-[persistencecontext]: https://docs.oracle.com/javaee/7/api/javax/persistence/PersistenceContext.html
-[embedded]: https://docs.oracle.com/javaee/7/api/javax/persistence/Embedded.html
-[embeddable]: https://docs.oracle.com/javaee/7/api/javax/persistence/Embeddable.html
-[embeddedid]: https://docs.oracle.com/javaee/7/api/javax/persistence/EmbeddedId.html
-[attributeoverride]: https://docs.oracle.com/javaee/7/api/javax/persistence/AttributeOverride.html
-[transient]: https://docs.oracle.com/javaee/7/api/javax/persistence/Transient.html
+[id]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Id.html
+[generatedvalue]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/GeneratedValue.html
+[entity]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Entity.html
+[column]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Column.html
+[table]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Table.html
+[persistencecontext]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/PersistenceContext.html
+[embedded]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Embedded.html
+[embeddable]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Embeddable.html
+[embeddedid]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/EmbeddedId.html
+[attributeoverride]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/AttributeOverride.html
+[transient]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Transient.html
 [creationtimestamp]: https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/CreationTimestamp.html
 [updatetimestamp]: https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/UpdateTimestamp.html
-[manytoone]: https://docs.oracle.com/javaee/7/api/javax/persistence/ManyToOne.html
-[joincolumn]: https://docs.oracle.com/javaee/7/api/javax/persistence/JoinColumn.html
-[onetoone]: https://docs.oracle.com/javaee/7/api/javax/persistence/OneToOne.html
-[mapsid]: https://docs.oracle.com/javaee/7/api/javax/persistence/MapsId.html
-[manytomany]: https://docs.oracle.com/javaee/7/api/javax/persistence/ManyToMany.html
-[jointable]: https://docs.oracle.com/javaee/7/api/javax/persistence/JoinTable.html
+[manytoone]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/ManyToOne.html
+[joincolumn]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/JoinColumn.html
+[onetoone]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/OneToOne.html
+[mapsid]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/MapsId.html
+[manytomany]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/ManyToMany.html
+[jointable]: https://javaee.github.io/javaee-spec/javadocs/javax/persistence/JoinTable.html
 [batchsize]: https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/BatchSize.html
 [fetchmode]: https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/FetchMode.html
 
@@ -250,7 +250,7 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 [enableglobalmethodsecurity]: https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/config/annotation/method/configuration/EnableGlobalMethodSecurity.html
 [preauthorize]: https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/access/prepost/PreAuthorize.html
 [postauthorize]: https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/access/prepost/PostAuthorize.html
-[rolesallowed]: https://docs.oracle.com/javaee/7/api/javax/annotation/security/RolesAllowed.html
+[rolesallowed]: https://javaee.github.io/javaee-spec/javadocs/javax/annotation/security/RolesAllowed.html
 [secured]: https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/access/annotation/Secured.html
 
 [enableaspectjautoproxy]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/EnableAspectJAutoProxy.html
