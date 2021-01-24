@@ -60,6 +60,18 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 - [@Autowired][autowired] - Beans are injected into annotated setters, fields, or constructor params. 
 - [@Qualifier][qualifier] - Specifies the name of a bean as an additional condition to identify a unique candidate for autowiring
 
+#### Validation
+- [@Valid][valid] - Mark a property, method parameters or return type for validation
+- [@Validated][validated] - Variant of `@Valid` that allows validation of multiple groups, e.g. all fields of an annotated class   
+- [@NotNull][notnull] - Must be not null
+- [@NotEmpty][notempty] - Must be not null nor empty
+- [@NotBlank][notblank] - Must be not null and at least one non-whitespace character
+- [@Digits][digits] - Must be a number within accepted range
+- [@Past][past] - Must be an instant, date or time in the past
+- [@Future][future] - Must be an instant, date or time in the future
+- ...
+
+
 ## Spring Boot
 
 - [@SpringBootConfiguration][springbootconfiguration] - Indicates Spring Boot application `@Configuration`
@@ -174,9 +186,20 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 [autowired]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html
 [qualifier]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Qualifier.html
 
+[valid]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/Valid.html
+[validated]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/annotation/Validated.html
+[notnull]: https://docs.oracle.com/javaee/7/api/javax/validation/constraints/NotNull.html
+[notempty]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/NotEmpty.html
+[notblank]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/NotBlank.html
+[digits]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/Digits.html
+[past]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/Past.html
+[future]: https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/Future.html
+
+
 [springbootconfiguration]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/SpringBootConfiguration.html
 [enableautoconfiguration]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/EnableAutoConfiguration.html
 [configurationproperties]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/context/properties/ConfigurationProperties.html
+[constructorbinding]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/context/properties/ConstructorBinding.html
 [configurationpropertiesscan]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/context/properties/ConfigurationPropertiesScan.html
 [springbootapplication]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/SpringBootApplication.html
 [entityscan]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/domain/EntityScan.html
