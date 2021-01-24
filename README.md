@@ -76,7 +76,8 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 
 - [@SpringBootConfiguration][springbootconfiguration] - Indicates Spring Boot application `@Configuration`
 - [@EnableAutoConfiguration][enableautoconfiguration] - Enables application context auto-configuration to provide possibly needed beans based on the classpath
-- [@ConfigurationProperties][configurationproperties] - Provides external binding of key value properties 
+- [@ConfigurationProperties][configurationproperties] - Provides external binding of key value properties
+- [@ConstructorBinding][constructorbinding] - Bind properties by using constructor rather than setters
 - [@ConfigurationPropertiesScan][configurationpropertiesscan] - Enables auto-detection of `@ConfigurationProperties` classes
 - [@SpringBootApplication][springbootapplication] - Combination of `@SpringBootConfiguration`, `@EnableAutoConfiguration`, `@ConfigurationPropertiesScan` and `@ComponentScan`
 - [@EntityScan][entityscan] - Configures base packages to scan for entity classes 
