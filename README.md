@@ -87,7 +87,8 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
  
 - [@SpringBootTest][springboottest] - Annotated test class will load the entire application context for integration tests
 - [@WebMvcTest][webmvctest] - Annotated test class will load only the web layer (service and data layer are ignored)
-- [@DataJpaTest][datajpatest] - Annotated class will load only the JPA components 
+- [@DataJpaTest][datajpatest] - Annotated class will load only the JPA components
+- [@JsonTest][jsontest] - Annotated class will load only json mapper for serialization and deserialization tests
 - [@MockBean][mockbean] - Marks annotated field as a mock and loads it as a bean into the application context  
 - [@SpyBean][spybean] - Allows partial mocking of beans 
 - [@Mock][mock]  - Defines annotated field as a mock
@@ -209,6 +210,7 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 [springboottest]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/context/SpringBootTest.html
 [webmvctest]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/WebMvcTest.html
 [datajpatest]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/orm/jpa/DataJpaTest.html
+[jsontest]: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.testing.spring-boot-applications.json-tests
 [mockbean]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/MockBean.html
 [spybean]: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/SpyBean.html
 [mock]: https://www.javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mock.html
